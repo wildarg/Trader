@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trader</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_pair_header">To add a new currency pair select currencies below</string>
+    <string name="add_pair_footer">For example: USD => RUB</string>
+    <string name="action_save">Save</string>
+    <string name="pair_exists_message">Pair already exists</string>
+</resources>

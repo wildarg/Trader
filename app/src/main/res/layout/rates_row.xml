@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/backLayout"
+        android:tag="back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frontLayout"
+        android:tag="front"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:id="@+id/fromCurrencyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <TextView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/fromCurrencyTextView"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="=>"/>
+
+        <TextView
+            android:id="@+id/toCurrencyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/arrow"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <TextView
+            android:id="@+id/rateInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary"
+            android:fontFamily="sans-serif-light"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
